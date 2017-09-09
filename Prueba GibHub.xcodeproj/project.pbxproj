@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9317F41F64B53700683B2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9317F31F64B53700683B2E /* AppDelegate.swift */; };
+		1B9317F61F64B53700683B2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9317F51F64B53700683B2E /* ViewController.swift */; };
+		1B9317F91F64B53700683B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9317F71F64B53700683B2E /* Main.storyboard */; };
+		1B9317FB1F64B53700683B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9317FA1F64B53700683B2E /* Assets.xcassets */; };
+		1B9317FE1F64B53700683B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9317FC1F64B53700683B2E /* LaunchScreen.storyboard */; };
+		1B9318091F64B53700683B2E /* Prueba_GibHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9318081F64B53700683B2E /* Prueba_GibHubTests.swift */; };
+		1B9318141F64B53700683B2E /* Prueba_GibHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9318131F64B53700683B2E /* Prueba_GibHubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9318051F64B53700683B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9317E81F64B53700683B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9317EF1F64B53700683B2E;
+			remoteInfo = "Prueba GibHub";
+		};
+		1B9318101F64B53700683B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9317E81F64B53700683B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9317EF1F64B53700683B2E;
+			remoteInfo = "Prueba GibHub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9317F01F64B53700683B2E /* Prueba GibHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba GibHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9317F31F64B53700683B2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B9317F51F64B53700683B2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B9317F81F64B53700683B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9317FA1F64B53700683B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B9317FD1F64B53700683B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B9317FF1F64B53700683B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9318041F64B53700683B2E /* Prueba GibHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba GibHubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9318081F64B53700683B2E /* Prueba_GibHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_GibHubTests.swift; sourceTree = "<group>"; };
+		1B93180A1F64B53700683B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B93180F1F64B53700683B2E /* Prueba GibHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba GibHubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9318131F64B53700683B2E /* Prueba_GibHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_GibHubUITests.swift; sourceTree = "<group>"; };
+		1B9318151F64B53700683B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9317ED1F64B53700683B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9318011F64B53700683B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B93180C1F64B53700683B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9317E71F64B53700683B2E = {
+			isa = PBXGroup;
+			children = (
+				1B9317F21F64B53700683B2E /* Prueba GibHub */,
+				1B9318071F64B53700683B2E /* Prueba GibHubTests */,
+				1B9318121F64B53700683B2E /* Prueba GibHubUITests */,
+				1B9317F11F64B53700683B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9317F11F64B53700683B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9317F01F64B53700683B2E /* Prueba GibHub.app */,
+				1B9318041F64B53700683B2E /* Prueba GibHubTests.xctest */,
+				1B93180F1F64B53700683B2E /* Prueba GibHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9317F21F64B53700683B2E /* Prueba GibHub */ = {
+			isa = PBXGroup;
+			children = (
+				1B9317F31F64B53700683B2E /* AppDelegate.swift */,
+				1B9317F51F64B53700683B2E /* ViewController.swift */,
+				1B9317F71F64B53700683B2E /* Main.storyboard */,
+				1B9317FA1F64B53700683B2E /* Assets.xcassets */,
+				1B9317FC1F64B53700683B2E /* LaunchScreen.storyboard */,
+				1B9317FF1F64B53700683B2E /* Info.plist */,
+			);
+			path = "Prueba GibHub";
+			sourceTree = "<group>";
+		};
+		1B9318071F64B53700683B2E /* Prueba GibHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9318081F64B53700683B2E /* Prueba_GibHubTests.swift */,
+				1B93180A1F64B53700683B2E /* Info.plist */,
+			);
+			path = "Prueba GibHubTests";
+			sourceTree = "<group>";
+		};
+		1B9318121F64B53700683B2E /* Prueba GibHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9318131F64B53700683B2E /* Prueba_GibHubUITests.swift */,
+				1B9318151F64B53700683B2E /* Info.plist */,
+			);
+			path = "Prueba GibHubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9317EF1F64B53700683B2E /* Prueba GibHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9318181F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHub" */;
+			buildPhases = (
+				1B9317EC1F64B53700683B2E /* Sources */,
+				1B9317ED1F64B53700683B2E /* Frameworks */,
+				1B9317EE1F64B53700683B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prueba GibHub";
+			productName = "Prueba GibHub";
+			productReference = 1B9317F01F64B53700683B2E /* Prueba GibHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9318031F64B53700683B2E /* Prueba GibHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B93181B1F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHubTests" */;
+			buildPhases = (
+				1B9318001F64B53700683B2E /* Sources */,
+				1B9318011F64B53700683B2E /* Frameworks */,
+				1B9318021F64B53700683B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9318061F64B53700683B2E /* PBXTargetDependency */,
+			);
+			name = "Prueba GibHubTests";
+			productName = "Prueba GibHubTests";
+			productReference = 1B9318041F64B53700683B2E /* Prueba GibHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B93180E1F64B53700683B2E /* Prueba GibHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B93181E1F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHubUITests" */;
+			buildPhases = (
+				1B93180B1F64B53700683B2E /* Sources */,
+				1B93180C1F64B53700683B2E /* Frameworks */,
+				1B93180D1F64B53700683B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9318111F64B53700683B2E /* PBXTargetDependency */,
+			);
+			name = "Prueba GibHubUITests";
+			productName = "Prueba GibHubUITests";
+			productReference = 1B93180F1F64B53700683B2E /* Prueba GibHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9317E81F64B53700683B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Arodi;
+				TargetAttributes = {
+					1B9317EF1F64B53700683B2E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1B9318031F64B53700683B2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B9317EF1F64B53700683B2E;
+					};
+					1B93180E1F64B53700683B2E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1B9317EF1F64B53700683B2E;
+					};
+				};
+			};
+			buildConfigurationList = 1B9317EB1F64B53700683B2E /* Build configuration list for PBXProject "Prueba GibHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B9317E71F64B53700683B2E;
+			productRefGroup = 1B9317F11F64B53700683B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9317EF1F64B53700683B2E /* Prueba GibHub */,
+				1B9318031F64B53700683B2E /* Prueba GibHubTests */,
+				1B93180E1F64B53700683B2E /* Prueba GibHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9317EE1F64B53700683B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9317FE1F64B53700683B2E /* LaunchScreen.storyboard in Resources */,
+				1B9317FB1F64B53700683B2E /* Assets.xcassets in Resources */,
+				1B9317F91F64B53700683B2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9318021F64B53700683B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B93180D1F64B53700683B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9317EC1F64B53700683B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9317F61F64B53700683B2E /* ViewController.swift in Sources */,
+				1B9317F41F64B53700683B2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9318001F64B53700683B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9318091F64B53700683B2E /* Prueba_GibHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B93180B1F64B53700683B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9318141F64B53700683B2E /* Prueba_GibHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9318061F64B53700683B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9317EF1F64B53700683B2E /* Prueba GibHub */;
+			targetProxy = 1B9318051F64B53700683B2E /* PBXContainerItemProxy */;
+		};
+		1B9318111F64B53700683B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9317EF1F64B53700683B2E /* Prueba GibHub */;
+			targetProxy = 1B9318101F64B53700683B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B9317F71F64B53700683B2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9317F81F64B53700683B2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9317FC1F64B53700683B2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9317FD1F64B53700683B2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9318161F64B53700683B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B9318171F64B53700683B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9318191F64B53700683B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prueba GibHub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B93181A1F64B53700683B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Prueba GibHub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B93181C1F64B53700683B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prueba GibHubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba GibHub.app/Prueba GibHub";
+			};
+			name = Debug;
+		};
+		1B93181D1F64B53700683B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Prueba GibHubTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHubTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba GibHub.app/Prueba GibHub";
+			};
+			name = Release;
+		};
+		1B93181F1F64B53700683B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prueba GibHubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prueba GibHub";
+			};
+			name = Debug;
+		};
+		1B9318201F64B53700683B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Prueba GibHubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Millans.Prueba-GibHubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prueba GibHub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9317EB1F64B53700683B2E /* Build configuration list for PBXProject "Prueba GibHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9318161F64B53700683B2E /* Debug */,
+				1B9318171F64B53700683B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9318181F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9318191F64B53700683B2E /* Debug */,
+				1B93181A1F64B53700683B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B93181B1F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B93181C1F64B53700683B2E /* Debug */,
+				1B93181D1F64B53700683B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B93181E1F64B53700683B2E /* Build configuration list for PBXNativeTarget "Prueba GibHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B93181F1F64B53700683B2E /* Debug */,
+				1B9318201F64B53700683B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9317E81F64B53700683B2E /* Project object */;
+}
