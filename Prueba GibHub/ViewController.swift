@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    //Hello My name is adrian millan y esta es moi prueba
+    //Hello My name is adrian millan this is my prueba
 
     override func viewDidLoad() {
         super.viewDidLoad()
